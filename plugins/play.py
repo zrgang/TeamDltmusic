@@ -245,7 +245,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://te.legra.ph/file/b1dbbb93b3f7f8049105e.jpg"
+        thumb_name = "https://telegra.ph/file/40fbf5fd2c0d4468f55af.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -253,8 +253,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ •", url="t.me/teamDlt"),
-                    InlineKeyboardButton("• ᴜᴘᴅᴀᴛᴇs •", url="t.me/teamDlt_update"),
+                    InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ •", url="t.me/Suzune_Support"),
+                    InlineKeyboardButton("• ᴜᴘᴅᴀᴛᴇs •", url="t.me/SuzuneSuperbot"),
                 ],
                 [
                     InlineKeyboardButton("• ʏᴏᴜᴛᴜʙᴇ •", url=f"{url}"),
@@ -295,8 +295,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                    InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ •", url="t.me/teamDlt"),
-                    InlineKeyboardButton("• ᴜᴘᴅᴀᴛᴇs •", url="t.me/teamDlt_update"),
+                    InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ •", url="t.me/Suzune_Support"),
+                    InlineKeyboardButton("• ᴜᴘᴅᴀᴛᴇs •", url="t.me/SuzuneSuperbot"),
                 ],
                 [
                     InlineKeyboardButton("• ʏᴏᴜᴛᴜʙᴇ •", url=f"{url}"),
@@ -308,7 +308,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/b1dbbb93b3f7f8049105e.jpg"
+            thumb_name = "https://telegra.ph/file/40fbf5fd2c0d4468f55af.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -362,8 +362,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                  [
-                    InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ •", url="t.me/teamDlt"),
-                    InlineKeyboardButton("• ᴜᴘᴅᴀᴛᴇs •", url="t.me/teamDlt_update"),
+                    InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ •", url="t.me/Suzune_Support"),
+                    InlineKeyboardButton("• ᴜᴘᴅᴀᴛᴇs •", url="t.me/Suzune_Superbot"),
                 ],
                 [
                     InlineKeyboardButton("• ʏᴏᴜᴛᴜʙᴇ •", url=f"{url}"),
